@@ -1,0 +1,332 @@
+<html>
+<head>
+<title> food facility in hotel</title>
+<style>
+body{
+ background:url("restaurant-bookings.jpg");
+ //background-repeat:no-repeat;
+     font-family: "century gothic";
+     width:1340px; 
+    }
+    
+ //.bg1{
+ //background:url(food14.png);
+ //background-repeat:no-repeat;
+      font-family: "century gothic";
+ //}
+ //body2{
+// background:url(food14.png);
+ //background-repeat:no-repeat;
+     font-family: "century gothic";
+ //}
+ .eventt{
+    height:150px;
+	width:150px;
+      font-family: "century gothic";
+   }
+   #id3{
+	   width:50px;
+	   height:50px;
+        font-family: "century gothic";
+	   }
+*{
+   margin:0px;
+   padding:0px;
+     font-family: "century gothic";
+}
+#menu ul{
+       list-style:none;    /* to remove the bullets */
+     font-family: "century gothic";
+	   }
+#menu ul li{
+       background-color:chocolate;
+	   border:1px solid white;
+	   width:140px;
+	   height:35px;
+	   line-height:35px;
+	   text-align:center;                     /* for the margin in the top it means we have to take the value of  */
+	   float:left;
+	   position:relative;
+	   border-radius:10px;
+     font-family: "century gothic";
+        }
+#menu ul li a{
+          text-decoration:none;
+		  color:white;
+		  display:block;    
+     font-family: "century gothic";/*  Displays an element as a block element  */
+        }
+#menu ul li a:hover{                          /* a link when the user mouses over it */
+         background-color:green;
+		 border-radius:10px;  
+     font-family: "century gothic";/* to apply the radius on the second unorder list */
+         }
+#menu ul ul
+    {
+   position:absolute;
+   display:none;       
+         font-family: "century gothic";/* we don't want list without permission */
+   }
+ #menu ul li:hover >ul
+ {
+        display:block; 
+      font-family: "century gothic";
+ }
+#menu ul ul ul
+  {
+   margin-left:140px;
+   top:0px;          
+       font-family: "century gothic";/* to remove the extra margin from top*/
+   }
+ #header{
+     height:150px;
+	 width:1365px;
+	 background-color:gray;
+      font-family: "century gothic";
+  }
+  #food1
+  {
+    height:500px;
+	width:1365px;
+    z-index:1; 
+       font-family: "century gothic";
+  }
+  #food2
+    {
+   width:0px;
+   height:500px;
+   position:  absolute;
+    font-family: "century gothic";
+    }
+   #h11{
+      align-content:right;
+	  float:right;
+        font-family: "century gothic";
+   }
+   #i2{
+   align-content:center;
+        font-family: "century gothic";
+   }
+    
+   
+   /* this is for the animation */
+  
+  #auto_animation
+  {
+       font-family: "century gothic";
+      float:center;
+      width:500px;
+      height:500px;
+      background-color:white;  
+      border:3px doted white;  
+      animation-name:colorchange;                    /* this is for the attach to the  keyframes*/
+      animation-duration:16s;                    /* for the whole time of animation */
+      animation-iteration-count:infinite;   /* for the iteratiion of the auto time animation */
+       background-size:cover;                       /* they cover the whole background */
+   }
+#aniamtion
+   {
+     text-align:centre;
+     padding-top:135px;
+        font-family: "century gothic";
+     color:white;
+   }
+@keyframes colorchange{                                        
+       0% {background-image:url("food14.jpg");}
+       25% {background-image:url("food15.png");}
+       50% {background-image:url("food16.png");}
+       75% {background-image:url("foodd.png");}
+     100% {background-image:url("food10.jpg");}
+}
+/* this for footer  */
+     
+	 #footer
+    {
+        position: absolute;
+        margin-top:260;
+        font-family: summr_sketch;
+        color:white;
+        background: black;
+        width:1330;
+        float: left;
+		background-repeat:repeat-y;
+    }
+</style>
+</head>
+<body>
+<div >
+<img src="akazi.png" width="70" class="eventt"/>
+       <h1 id="i2" align="center" >AKAZI HOTELS AND RESTAURENT</h1>
+         <hr width="530">
+</div>
+<div id="menu">
+    <p align="center">
+<ul>
+    <li><a href="#">HOME</a></li>  
+	<li><a href="#">CUISINE&#8681; </a>
+	<ul>
+	      <li><a href="#">INDIA </a></li>  
+	      <li><a href="#">EUROPEAN </a></li>
+	      <li><a href="#">CHINESE </a></li>
+	      <li><a href="#">TURKEY </a></li>
+		  <li><a href="#">JAPANISE</a></li>		
+		  <li><a href="#"> SAUDI ARABIAN</a></li> 
+		  </ul>
+	</li>
+    <li><a href="#">RECIPES &#8681;</a>                                   <!-- white down arrow -->
+	<ul>
+          <li><a href="#">HEALTHY</a></li>  
+	      <li><a href="#">SNAKES&#8680;</a>           <!-- white  right  arrow &#8680;-->
+		   <ul>
+		   <li><a href="#">SEAFOOD </a></li>  
+	      <li><a href="#">DINNER PARTY</a></li>
+		  <li><a href="#">FETIVALS</a></li>                            
+	      <li><a href="#">PICNIC</a></li>  
+	      <li><a href="#">DRINKS</a></li>
+	      <li><a href="#">BREAKFAST</a></li>
+		   </ul>
+		  </li>
+	      <li><a href="#"> VEGETARIAN</a></li>
+	      <li><a href="#"> CHIEKN</a></li>
+		  <li><a href="#"> MEAT</a></li>		  <!-- white  right  arrow &#8680;-->
+		  <li><a href="#">SEAFOOD </a></li>  
+	      <li><a href="#">DINNER PARTY</a></li>
+		  <li><a href="#">FETIVALS</a></li>                             <!-- white  right  arrow &#8680;-->
+	      <li><a href="#">PICNIC</a></li>  
+	      <li><a href="#">DRINKS</a></li>
+	      <li><a href="#">BREAKFAST</a></li>		  
+	</ul>
+	</li>
+	<li><a href="#">INDREDIENTS&#8681;</a>                          <!-- white down arrow -->
+	<ul>
+				     <li><a href="#"> SPICES </a></li>
+                      <li><a href="#"> HERBS</a></li>					 
+	                 <li><a href="#"> SUGAR PRODUCTS</a></li>
+	                 <li style="width:200px;"><a href="#"> NUTS & OILSEEDS</a></li>
+	                 <li><a href="#"> MEAT</a></li>
+					 <li><a href="#">SEEFOOD </a></li>  
+	                 <li><a href="#">FRUITS </a></li>
+	                 <li  style="width:200px;"><a href="#">OTHER INGREDIENTS </a></li>
+	                
+				</ul>
+	</li>
+		<li><a href="#">VIDEOS&#8681;</a>                          <!-- white down arrow -->
+	<ul style="z-index:1;">
+				     <li><a href="#"> QUICK and EASY </a></li>
+                      <li><a href="#"> CHICKEN</a></li>					 
+	                 <li><a href="#"> SNACKS</a></li>
+	                 <li><a href="#"> BRUNCH</a></li>
+	                 <li><a href="#"> MEAT</a></li>
+					 <li><a href="#">DESSERTS</a></li>  
+				</ul>
+	</li>
+
+	<li><a href="#">THE AKAZI CLUB</a></li>
+	<li> <a href="#">FASION|ART&#8681;</a>              <!-- white down arrow -->
+	              <ul>   
+					 <li><a href="#"> VISION </a></li>  
+	                 <li><a href="#"> FACTS  </a></li>
+				  </ul>
+	</li>
+    </ul>
+    >
+</div>
+<div >
+     <img src="food.jpg" id="food1">
+ </div>
+ <div id="id3">
+ </div>
+ </body>
+<body id="body1" >
+     <div class="bg1">
+            <table>
+                <tr>
+                     <td>
+                        <img src="morning.jpg" width="500px" height="500" >
+                    </td>
+                     <td>
+                         <h1>MORNING AKAZI-TEA</h1>
+                    </td>
+                </tr>
+          </table>
+      </div>
+     <br><br><br>
+   <div class="bg1">
+        <marquee scrollamount=30 behavior="slide" behavior="alternate"  direction="right" >
+            <table>
+               <tr>
+                   <td>
+                       <button type="button" value="Learn More"></button>
+				    </td>
+                    <td>
+                       <h1 align="left"> EVENING AKAZI-TEA</h1>
+                    </td>
+                      <td>
+                           <img src="evening.jpg" width="500px" height="500" align="center">
+                     </td>
+                </tr>
+             </table>
+        </marquee> 
+    </div>
+</body>
+<body id="body2">
+<div>
+<pre>
+<font color="black" face="Century Gothic">
+ <h1><font face="century gothic">Discover Something Healthy and Delicious</font></h1>
+ 
+ <h2 align="center">
+ In 2005, Akazi-Hotel  a revolution in the fast food industry launching a unique market niche in Dubai.
+ Our founder's vision was to create the first and only healthy Indian fast food takeout concept.
+ Our goal was to provide a healthy and delicious meal experience for busy people 
+ looking to have their food brought to them whenand where they want it.
+ After more than a decade and over 1 million baked samosas later,
+ Veda has expanded from takeout roots, to focusing on home and office delivery,
+ and now private, campus, and corporate catering.
+ Pop in to one of our three downtown Toronto locations, 
+ or even better, let us bring the food to you!
+ </h2>
+ </font>
+ </pre>
+<img src="foodd.png" />
+<!-- <img src="images.jpg"/> -->
+</div>
+<pre>
+        <big><big><big>	
+	                                                 <h1 align="center"> STARTERS</h1>
+													  
+                                   <p align="center">QUASH SOUP<br>SOURED CREAM<br>CRISPY PARMESAN CRUMB<br>PRESSED CHICKEN THIGH<br> BLACKPUDDING and POTATO<br> HP SAUCE<br>SCALLOP<br>SALMON RAVIOLI<br> SPINACH<br>MISO BROTH<br> CHIVE OIL<br>EARL GREY POACHED PEAR<br> BLACKSTICKS BLUE SALAD<br>CARAMELISED WALNUTS<br>"MUSHROOMS ON TOAST"<br>SLOW COOKED DUCK EGG <br>PARMESAN<br>TRUFFLE <br></p>
+							
+		</big></big></big>
+							
+	</pre>
+	<img src="food16.png" width="75%"  id="food1">
+	<pre>
+	<big><big><big>
+	<h1 align="center">Main</h1>                                     
+                                              <p align="center"><h1>MAINS</h1>		
+    <br>HAY BAKED BEEF CHEEK<br>ONIONS<br>CREAMED POTATOES<br>VENISON SUET PUDDING<br>TENDER STEM BROCOLLI<br>COCOA NIBS<br>WILD MUSHROOMS<br>REG JOHNSONS DUCK BREAST<br>PARSNIP PUREE<br>BABY PARSNIPS<br>CRANBERRY<br>MONKFISH<br>MORECAMBE BAY SHRIMP<br>TARRAGON SAUCE<br>KALE<br>CELERIAC<br>CORN FED CHICKEN BREAST<br>PEARL BARLEY<br>BRAISED LEEKS<br>PANCETTA<br>FOREST OF BOWLAND BEEF FILLET<br>POTATO TERRINE<br>POACHED CARROTS<br>CHARRED 3 CUTS OF BOWLAND BEEF<br>PEPPERCORN SAUCE<br>SHALLOT<br>RINGS<br>WILD HAKE<br>SQUID INK RISOTTO<br>PEAS<br> </p>
+									  
+</big></big>								 
+ </pre>
+ <div id="auto_animation">
+    <p id="aniamtion"> </p>
+	
+ </div>
+<pre>
+<big><big><big>
+
+														 <h1 align="center">PUDDINGS</h1>
+														 
+                                    <p align="center">  "BANANA BUTTY"<br>SALTED POPCORN ICE CREAM<br>SHAKE<br>CHOCOLATE PAVE<br>CHERRY TEXTURES<br>SOIL<br>GLUTEN FREE HAZELNUT CAKE<br>YUZU CURD<br>YOGHURT ICE CREAM<br>HOME-MADE ICE CREAM<br>TWIX<br>COCONUT<br>CRUNCHIE<br>CHEFS BISCUIT<br>
+                       CHEESE SLATE<br>CRACKERS<br>QUINCE PASTE<br>CELERY<br>BLACKSTICKS BLUE<br>TRUE GRIT<br>SMOKED<br>KIDDERTON ASH<br>
+					   
+	<font size="5">IF YOU SUFFER WITH A FOOD ALLERGY OR INTOLERANCE PLEASE SPEAK TO A MEMBER OF OUR TEAM PRIOR TO ORDERING YOUR FOOD AND DRINKS.</font></p>
+	</big></big></big>
+	</pre>    
+	<div id="footer">
+    <p align="center">AKAZI HOTELS AND RESORTS<br>
+        2017 &copy; ALL rights reserved</p>
+    </div>
+</body>
+</html>

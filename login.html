@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Akazi Login
+</title>
+    <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/3.2.1/assets/font-awesome/css/font-awesome.css">
+<style>
+     button:hover{
+        background-color:#fff;
+            color:black;
+        }
+body
+    {
+        margin: 0 auto;
+        background-image:url("7.jpg");
+        background-repeat:no repeat;
+        background-size:100% 720px;
+    }
+.container
+    {
+        width:500px;
+        height:400px;
+        text-align:center;
+        background-color:rgba(52, 73, 94,0.7);
+        border-radius:4px;
+        margin:0 auto;
+        margin-top:150px;        
+    }
+.container img
+    {
+        width:120px;
+        height:120px;
+        margin-top:-60px;
+        margin-bottom:30px;
+    }
+input[type="text"],input[type="password"]
+    {
+        height:45px;
+        width:300px;
+        font-size:23px;
+        border:none;
+        border-radius:5px;
+        margin-bottom:20px;
+        background-color:#fff;
+        padding-left:40px;
+    }
+.form-input::before
+    {
+        font-family:"FontAwesome";
+        font-size:35px;
+        content: "\f007";
+        position: absolute;
+        color:#9859B6;   
+        padding:5px;
+        padding-top:7px;
+    }
+.form-input:nth-child(2)::before
+    {
+        content: "\f023";
+    }
+.btn
+    {
+        font-style: sans-serif;
+        cursor: pointer;
+        padding:15px 30px;
+        color:#fff;
+        border:none;
+        border-radius:4px;
+        background-color:#2ECC71;
+        border-bottom:4px solid #27AEG0;
+        margin-bottom: 20px;
+    }
+    a
+    {
+     color:#fff;   
+    }
+</style>
+    <script>
+        function step1()
+        {
+        var u=document.getElementById("user").value
+        var p=document.getElementById("pass").value;
+        if(p=="tusharamit06" && u=="tushar2005@akazihotels.com")
+            {
+        alert("Logining in ");   
+        window.open("Intermediate.html");        
+            }
+        else if(u=="harsh@akazihotels.com" && p=="harsh123")    
+        {
+        alert("Loging in");    
+        window.open("Intermediate 2.html");    
+        }
+        else if(u=="rahul@akazihotels.com" && p=="rahul123")
+        {
+         alert("Loging in");    
+        window.open("Intermediate 3.html");    
+        }
+        else
+        alert("Logining out ");    
+        }
+    </script>
+</head>
+<body>
+
+    <div class="container">
+        <img src="men.png">
+         <form name="validate">
+           <div class="form-input">
+            <input type="text" name="username" placeholder="Enter Username" id="user">
+               
+     </div>
+     
+     <div class="form-input">
+       <input type="password" name="password" placeholder="Enter Password" id="pass">
+         
+     </div>
+             
+        <input type="Submit" name="Submit" value="Login" class="btn" onClick="step1()">
+         
+             <br>
+         <a href=""><font face="Century Gothic">Forget Password?</font></a>     
+             
+          </form>
+     </div>
+</body>
+</html>

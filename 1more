@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>
+Akazi
+</title>
+       <link rel="stylesheet" href="cssfileakazihome.css">
+    <style>
+        #tybelowhe
+        {
+            height: 265px;
+            width: 1360px;
+            background-color: black;
+            
+        }
+        #header12
+        {
+           
+            background-color: aliceblue;
+            width:1360px;
+            position: fixed;
+            height:130px;
+            z-index: 10;
+            filter: alpha(opacity=70);
+            -moz-opacity:.70;
+            opacity:0.70;
+        }
+        .WRITTEN
+        {
+            
+            color:white;
+            font-size: 20;
+        }
+        .HOME button:hover{
+        background-color:goldenrod;
+            color:black;
+        }
+        
+        #op button
+        {
+          font-family:"Pasajero";        
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;   
+        }
+        #HOmeButtonlayer
+        {
+          position: absolute;
+            top:  120px;
+            
+            z-index: 6;
+         }
+        
+        .HOME button 
+        {
+      font-family:"Pasajero";        
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+        }
+        
+        .content
+        {
+            background-image: url("7.jpg");
+            background-repeat: no-repeat;
+            position: absolute;
+            top: 270px;   
+        }
+        .footer
+        {
+            background-color:black;
+            top:550px;
+            color:white;
+        }
+        .WRITTEN table
+        {
+            font-family: century gothic;
+            font-size:30;
+            color: white;
+        }
+        .ourbrands
+        {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+<div id="header12">
+<h1 align="center"><font face="Summr_sketch" size="55">Akazi</font></h1>
+<h5 align="center"><font face="Summr_sketch" size="5">Hotels and Resorts</font></h5>
+    </div>
+    <div id="tybelowhe">
+    <div class="HOME" id="HOmeButtonlayer">	
+    <p align="center">
+    <button><a href="_self">ABOUT US</a></button>
+    <button><a href="_self">ReSTRURANTS AND BARS</a></button>
+    <button><a href="_self">eVeNTS</a></button>
+    <button><a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/Offers.html">OffeRS</a></button>
+    <button><a href="_self">DeSTINATION</a></button>
+    <button> <a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/TOWERS.html">ThE TOWeR</a></button>
+        <button><a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/New%20folder%20(6)/reservation%20page/posion.html">BOOKNOW</a></button>
+    <button><a href="_self">fACTS</a></button>
+    <button><a href="_self">GALLeRY</a></button>
+    <button><a href="_self">ThE AKAZI CLUB</a></button>
+    <button><a href="_self">fAShION|ART</a></button>
+        <button><a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/login.html">LOGIN</a></button>
+    </p>
+    </div>    
+        </div>
+    <!--Header ends -->
+    
+<div class="content">
+    <h2 class="w3-center"><font face="Summr_sketch" size="55">AKAZI</font></h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+  <img class="mySlides" src="8.jpg" style="width:100%">
+  <img class="mySlides" src="1.jpg" style="width:100%">
+  <img class="mySlides" src="4.jpg" style="width:100%">
+  <img class="mySlides" src="5.jpg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}    
+    </script>
+    
+    <div class="WRITTEN">
+        <h2 align="center"><u><font face="Pasajero" size="50">WELCOME TO AKAZI</font></u></h2><br>
+        <p align="center"> Quintessentially All over world in its fabric, Akazi Hotels Resorts and Palaces is recognized the world over for delivering a unique flavour of hospitality that offers world-class refinement while remaining deeply rooted in its local heritage. With over 100 hotels in 62 locations, Taj offers guests the refined luxury of heritage, the effortlessly efficient service and amenities and a local experience with the assurance of quality.</p>
+        <p align="center"><a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/New%20folder%20(6)/reservation%20page/posion.html"><br><br><br><font color="black" face="Pasajero" size="7">>BOOKNOW</font></a></p>
+        
+        
+        <div class="ourbrands">
+            <h2 align="center"><u><font face="DUMA">OUR BRANDS</font></u></h2><br>
+        <div class="table">
+        <table align="center">
+            <tr width="150">
+                <th width="220" align="center">AKAZI</th>
+                <th width="220" align="center">TAJ</th>
+                <th width="220" align="center">THE GATE WAY</th>
+            </tr>
+            <tr width="50">
+                <td width="220" align="center"><img src="PicsArt_03-25-02.09.32.png" width="100"><br></td>
+                <td width="220" align="center"><img src="taj.jpg" width="100"><br></td>
+                <td width="220" align="center"><img src="the%20gateway.jpg" width="100"><br></td>
+            </tr>    
+            <tr width="50" id="op">
+                <td width="220" align="center"><br><button>visit</button></td>
+                <td width="220" align="center"><br><button>visit</button></td>
+                <td width="220" align="center"><br><button>visit</button></td>
+            </tr>    
+    
+        </table>
+        </div>
+    </div>
+    <div class="footer">
+        <p align="center">AKAZI HOTELS AND RESORTS<br>
+        2017 &copy; ALL rights reserved 
+        </p>
+    </div>    
+    </div>
+    </div>
+    </div>
+            
+        
+    

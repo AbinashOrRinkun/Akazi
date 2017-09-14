@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>
+Facilites
+</title>
+<style>
+#headerback
+    {
+        background: black;
+            height: 290px;
+            width: 1360px;
+            background-color: black;
+    }
+    #header
+    {
+            background-color:crimson;
+            width:1360px;
+            position:fixed;
+            height:150px;
+            z-index: 10;
+            filter: alpha(opacity=70);
+            -moz-opacity:.70;
+            opacity:0.70;
+        font-family: "summr_sketch";
+        font-size:40;
+    }
+    #exclusive
+    {
+       margin-top: 155px;
+        position: fixed;
+        background:url("7.jpg");
+        width:1360;
+        height:900;
+        
+    }
+</style>    
+</head>
+<body>
+
+<div id="Header>
+AKAZI<br>
+Hotels and Resorts<br>
+<img src="akazi.png">
+</div>
+<div id="headerback">
+<div id="exclusive">
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,145 @@
+<html>
+<head>
+<title>travel</title>
+<style>
+    #header
+{
+  width:1330px;
+  height:100px;
+  color: navajowhite;
+  background-color:lightcoral;
+  opacity: 0.70;    
+  font-family: summr_sketch;
+  font-size:50;
+}
+.Content 
+    {
+        margin-top: 160px;
+        position: absolute;
+        font-family: "Pasajero";
+        font-size: 30;
+        width:1330;
+        background-color: black;
+        opacity: 0.70;
+    }
+#do :hover
+    {
+    color:white;
+    }
+    #do
+    {  
+    font-family:"Pasajero";        
+    background-color: darkslategray;
+    border: none;
+    color: salmon;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+input[type="text"],input[type="date"]
+    {
+        height:30px;
+        width:200px;
+        font-size:20px;
+        border:none;
+        border-radius:5px;
+        margin-bottom:23px;
+        background-color:antiquewhite;
+        padding-left:5px;
+        
+    }    
+select
+    {
+        height:35px;
+        width:150px;
+        font-size:20px;
+        border:none;
+        border-radius:5px;
+        margin-bottom:23px;
+        background-color:antiquewhite;
+        padding-left:5px;  
+        
+    }
+    #footer
+    {
+       position: absolute;
+        margin-top:1100;
+        font-family: summr_sketch;
+        color:white;
+        background: black;
+        width:1330;
+        float: left;
+    }
+    
+    
+body
+    {
+        background: url("travel1.jpg");
+        background-repeat: no-repeat
+    }
+</style>
+  
+</head>
+<body>
+<div id="header">
+    <p align="center"><a  href="_self"><img src="akazi.png" align="left"width="110"></a>AKAZI<br>
+       Hotels and Resorts<br></p>
+    </div>
+<div class="Content">    
+    <fieldset clas="set" align="center"><legend><font  face="Century Gothic" size="20" color="ORANGE" ><marquee behavior="scroll" scrollamount=3>  PLAN YOUR TRAVEL </marquee></font></legend>
+
+   
+<form>
+
+    <font color="salmon" > 
+    Name:       <input type="text" name="t1" size="12" maxlength=4 placeholder="Enter your name">  
+    <br>     
+        <font color="SALMON" size="5"> From: </font>
+<input type="text" placeholder="From" id= "box1" required> 
+    
+    <tr align="center" colspan="2"><font color="salmon" size="5"> To:</font>
+<tr align="center"><input type="text" placeholder="TO" id="box2" required> 
+
+        <br><br>
+<input type="radio" name="OPTING ASSisTANT:" value="1"/>OPTING ASSisTANT<br><br/>
+<input type="radio" name="OPTING ASSisTANT:" value="1"/>No ASSisTANT<br><br/>
+select type of food :
+    <input type="radio" name="3"     value="10" true >INDIAN&nbsp;&nbsp;
+        <input type= "radio" name="3" value="10">CONTINENTAL<br><br>
+select type:<br>
+<select name="d">
+<option>TYPE</option>
+<option>VEG</option>
+<option>NON-VEG</option>
+
+ </select><br><br>
+
+DATe OF JOURNeY:<input type="date" name=""/><br><br/>
+    TIME: <input type="time" name=""/><br><br/>
+ReTURN DATe OF JOURNeY:<input type="date" name=""/><br><br/>
+
+
+
+
+   which hotel you want to stay:
+    <select>
+    <option>AKAZI-Dubai</option>
+    <option>Taj-India</option>
+        <option>TheGateWay-Australia</option>
+    </select>
+<br>
+        </tr>
+    </font>
+   <button  id="do" onClick="test()">BOOK NoW</button>
+</form>
+    </fieldset>
+     </div>           
+    <br><br><br>
+<div id="footer">
+    <p align="center">AKAZI HOTELS AND RESORTS<br>
+        2017 &copy; ALL rights reserved</p>
+    </div>
+</body></html>
