@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>
+The Towers
+</title>
+     <link rel="stylesheet" href="cssfileakazihome.css">
+<style>
+    #headerback
+    {
+        background: black;
+            height: 290px;
+            width: 1360px;
+            background-color: black;
+    }
+    #header
+    {
+          background-color: goldenrod;
+            width:1360px;
+            position: absolute;
+            height:150px;
+            z-index: 10;
+            filter: alpha(opacity=70);
+            -moz-opacity:.70;
+            opacity:0.70;
+        font-family: "summr_sketch";
+        font-size:40;
+    }
+    #exclusive
+    {
+       margin-top: 155px;
+        position: absolute;
+        background:url("3blur.jpg");
+        width:1360;
+        height:1000;
+        
+    }
+    #exclusive button
+    {
+        font-family:"Pasajero"; 
+        text-decoration: none;       
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;   
+    }
+   .totalslide
+    {
+        z-index: 30;
+        position: absolute;
+    }
+    .footer
+    {
+        position: absolute;
+       background: black; 
+        color:white;
+        font-family: "summr_sketch";
+        top:1100px;
+        width: 1360px;
+        z-index: 40;
+    }
+    </style>    
+</head>
+<body>
+<div id="header">
+   
+<p align="center"><a  href="_self"><img src="akazi.png" align="left" width="120"></a>AKAZI<br>
+       Hotels and resorts<br></p>
+    </div>
+<div id="headerback">     
+   
+<div id="exclusive">
+<p align="center">    
+<a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/The%20akazi%20tower.html"><button>Akazi-Stakes</button></a>
+    <a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/The%20taj.html"><button>The Taj</button></a>
+<a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/The%20110.html"><button>ThE110</button></a>
+    <a href="file:///C:/Users/aMit%20Singh/Desktop/akazi-Hotels%20and%20Resorts/The%20GateWay.html"><button>TheGateway-42</button></a></p>
+    </div>
+    </div>
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="21.jpg" style="width:100%">
+  <img class="mySlides" src="22.jpg" style="width:100%">
+  <img class="mySlides" src="23.jpg" style="width:100%">
+  <img class="mySlides" src="3.jpg" style="width:100%">
+  <img class="mySlides" src="6.jpg" style="width:100%">
+    <img class="mySlides" src="seattle-space-needle-at-night-wallpaper-2.jpg" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}    
+    </script>    
+
+
+<div class="footer">
+<p align="center">AKAZI HOTELS AND RESORTS<br>
+        2017 &copy; ALL rights reserved 
+        </p>    
+</div>
+</body>
+</html>

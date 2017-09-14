@@ -1,0 +1,308 @@
+<html>
+    <head>
+        <title>GUESS pesponse</title>
+ <style>
+ body{
+		 background-image:url("7.jpg");
+		 
+		   } 
+ /*  
+    navigationor bar by using list   */
+	
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	opacity:.40;
+	-moz-opacity:opacity(40);
+	color:black;
+    font-family: "century gothic";
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    font-family: "century gothic";
+}
+li 
+{
+    float: left;
+    font-family: "century gothic";
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: "century gothic";
+}
+
+li a:hover {
+    background-color: #111111;
+    font-family: "century gothic";
+}
+/* end of bar code*/
+	
+   .eventt{
+    height:150px;
+	width:150px;
+       font-family: "century gothic";
+   }		 
+	
+	#table1{
+	background-image:url('feedback1.png');
+	background-size:cover;
+	height:300px;
+	width:1200;
+	border-radius;4px;
+	border:1px dotted white;
+	color:white;
+	margin-left:50px;
+	opacity:.80;
+        font-family: "century gothic";
+		-moz-opacity:opacity(80);
+	}
+	
+	/* this is styling for table 1 and table 2 to make input as as styling and length */
+	
+	.styling{
+	  width:500px;
+	  height:40px;
+	}
+	
+	/* styling of table 2 */
+	
+	#table2
+	{
+	float:center;
+	background-image:url('feedback1.png');
+    font-family: "century gothic";
+	background-size:cover;
+	height:550px;
+	width:1200;
+	border-radius;4px;
+	border:1px dotted white;
+	margin-left:50px;
+	opacity:.80;
+		-moz-opacity:opacity(80);
+	} 
+	
+	#a1{
+	text-decoration:none;
+	display:inline-block;
+        font-family: "century gothic";
+	
+	}
+	
+ #footer
+    {
+        position: absolute;
+        font-family: summr_sketch;
+        color:white;
+        font-family: "century gothic";
+        background: black;
+        width:1330;
+        top:1700;
+        float: left;
+	}	
+	
+</style>
+</head>
+   <body>
+   <div >
+<img src="akazi.png" class="eventt"/>
+       <h1 id="i2" align="center" ><font face="summr_sketch" color="black">AKAZI HOTELS AND RESTAURENT</h1>
+         <hr width="1340"></hr>
+</div>
+<div><img  align="center" src="feedback_btn.png"/></div>
+
+<!--   for the navigation by using list -->
+<div>
+<ul>
+  <li><a href="#home">Home</a></li>
+</ul>
+</div>
+ 
+ <!--<pre height="100px" width="50px">
+   &#x2302;
+</pre>
+-->
+
+   
+ <h1 align="center"><font face="century gothic" color="black" size="6">HOTEL FEEDBACK</h1>
+        <hr width="200px">
+            <p align="center">If you have a comment, compliment or concern regarding your stay and experience at AKAZI, please do share it with us</p></font>
+		<hr width="1000px">
+<font face="century gothic" color="white" size="6">PERSONAL INFO</font>
+	<div id="table1">
+	
+	
+	<!--  table 1 for persoanl information -->
+	
+<form>	
+<table align="center"   class="table" >
+	<tr>
+		<td><h2>Title*</h2></td>
+		<td >
+			  <select width="200px" class="select" class="styling" >
+			  <option>Select Title</option>
+                  <option>Mr.</option>
+                  <option>Ms.</option>
+                  <option>Mrs.</option>
+                  <option>Dr.</option>
+				  <option>Master</option>
+                  <option>Sir</option>
+                  <option>Col.</option>
+                  <option>Capt.</option>
+				  <option>HRH</option>
+                  <option>Brig.</option>
+                  <option>Gen.</option>
+               </select>
+	</td>
+	<br>
+	</tr>
+	<tr>
+	<td><h2>Name*</h2></td>
+	<td>
+	 <input type="text" value="" name="" placeholder=""  maxlength="20px" class="styling" required></input>
+	 </td></tr>
+<br>	 
+<tr>
+		<td><h2>E-mail</h2></td>
+		<td>
+		   <input colspan="3" class="t1" type="password" value="" name="" class="styling" required  ></input>
+		<td>
+</tr>
+<br>
+<tr>
+     <td>
+	 <h2>Telephone/Mobile Number</h2>
+	 </td>
+    <td>
+	<input colspan="3" type="password" value="" name="" class="styling"></input>
+	</td>
+</tr>
+</table>
+</form>
+</div>
+<hr width="1000px">
+<font face="century gothic" color="white" size="6">PROFESSIONAL INFO</font>
+      
+<!--  table 2 for the professional information -->
+
+	  
+<div id="table2">
+		<table   align="center" class="table" width="500px" height="500px">
+             
+
+			 <tr>
+                  <td><h2> Company</h2></td>
+                  <td>
+	                 <input type="text" value="" name="" required  ></input>
+	              </td>
+             </tr>
+             <tr>
+                     <td><h2> Where are you from</h2></td>
+                 <td>
+	                    <input type="text" value="" name="" required ></input>
+	             </td>
+            </tr>
+           <tr>
+                    <td><h2>Purpose of your comment</h2></td>
+					<td align="center" >
+    			  <select class="select">
+                  <option>Select Your Purpose </option>
+                  <option>Hotel Stay</option>
+                  <option>Dining</option>
+                  <option>Conference</option>
+				  <option>Reservation</option>
+                  <option>Others</option>
+               </select>
+	</td>
+           </tr>
+		   
+<tr>
+
+            <td><h2>Length of your visit</h2></td>
+	<td align="center" >
+			  <select width="200px" class="select">
+                  <option>Mr.</option>
+                  <option>Ms.</option>
+                  <option>Mrs.</option>
+                  <option>Dr.</option>
+				  <option>Master</option>
+                  <option>Sir</option>
+                  <option>Col.</option>
+                  <option>Capt.</option>
+				  <option>HRH</option>
+                  <option>Brig.</option>
+                  <option>Gen.</option>
+               </select>
+	</td>
+</tr>
+<tr>
+   <td><h2>Was this</h2></td>
+   <td align="center" >
+			  <select>
+                  <option>Select</option>
+                  <option>Your 1st Visit</option>
+                  <option>A Rpeat Visit</option>
+               </select>
+	</td>
+</tr>
+<tr>
+	<td> <h2>Hotel you stayed in*</h2></td>
+	<td align="center" >
+			   <select class="select">
+                  <option>Select</option>
+                  <option>Ms.</option>
+                  <option>Mrs.</option>
+                  <option>Dr.</option>
+				  <option>Master</option>
+                  <option>Sir</option>
+                  <option>Col.</option>
+                  <option>Capt.</option>
+				  <option>HRH</option>
+                  <option>Brig.</option>
+                  <option>Gen.</option>
+               </select>
+	</td>
+</tr>
+<tr>
+   <td><h2>Check-in</h2></td>
+   <td ><input type="date"  name="" required></td>
+</tr>
+<tr>
+   <td><h2>Check-out</h2></td>
+  <td ><input type="date"  name="" required></td>
+</tr>
+<tr>
+       <td><h2>Room Number</h2></td>
+       <td ><input type="password"  name="" required>
+  </td>
+</tr>
+<tr></tr>
+<tr>
+   <td><h2>Description</h2></td>
+   <td>
+         <textarea type="comment" value="" size="3">          
+      </textarea><br>
+       
+    <button><a href="#" id="a1"><br><br>Submit<br><br></a></button> 
+                </td>
+           </tr>		   <!-- for the commment of guest --> 
+
+    </table>
+</div>
+<div id="footer">
+    <p align="center">AKAZI HOTELS AND RESORTS<br>
+        2017 &copy; ALL rights reserved</p>
+    </div>
+</body>
+</html>
